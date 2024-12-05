@@ -31,6 +31,12 @@ By leveraging an advanced conversation-based AI, this kiosk aims to enhance acce
      }
      ```
 2. **Set Up Training Environment**
-   - Use [oobabooga's text generation webui](https://github.com/oobabooga/text-generation-webui) for training.
    - Load the LLaMA model (3B or 8B). Quantization is optional but recommended for resource efficiency.
    - Place the dataset in the `training/datasets` directory.
+
+3. **Fine-Tune the Model**
+   - Configure the training settings:
+     - Epochs: `5`
+     - Batch size: `8`
+     - Learning rate: `2e-5`
+   - Start the fine-tuning process.
