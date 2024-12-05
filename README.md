@@ -51,6 +51,7 @@ Below are the fine-tuned models uploaded to Hugging Face:
 
 | Version | Link | Notes |
 | --- | --- | --- |
+| 8th | [wolf010/8th_finetuned_llama-3-Korean-Bllossom-8B](https://huggingface.co/wolf010/8th_finetuned_llama-3-Korean-Bllossom-8B) | Pre-final iteration. |
 | 7th | [wolf010/7th_finetuned_llama-3-Korean-Bllossom-8B_q4](https://huggingface.co/wolf010/7th_finetuned_llama-3-Korean-Bllossom-8B_q4) | Earlier iteration with quantization. |
 | 7th (non-quantized) | [wolf010/7th_finetuned_llama-3-Korean-Bllossom-8B](https://huggingface.co/wolf010/7th_finetuned_llama-3-Korean-Bllossom-8B) | Non-quantized earlier iteration. |
 | 6th | [wolf010/6th_finetuned_llama-3-Korean-Bllossom-8B](https://huggingface.co/wolf010/6th_finetuned_llama-3-Korean-Bllossom-8B) | Fine-tuned with enhancements for edge cases. |
