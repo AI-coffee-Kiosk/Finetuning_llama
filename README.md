@@ -6,8 +6,6 @@
 - [Uploaded Models](#uploaded-models)
 - [Results and Examples](#results-and-examples)
 - [Limitations and Future Improvements](#limitations-and-future-improvements)
-- [License](#license)
-- [Acknowledgements](#acknowledgements)
 
 ---
 ## Project Description
@@ -65,3 +63,31 @@ Below are the fine-tuned models uploaded to Hugging Face:
 | 3rd | [wolf010/3rd_fine_tuned_Llama-3.2-3B-Instruct](https://huggingface.co/wolf010/3rd_fine_tuned_Llama-3.2-3B-Instruct) | Initial model tailored for coffee kiosk orders. |
 | 2nd | [wolf010/2nd_fine_tuned_Llama-3.2-3B-Instruct](https://huggingface.co/wolf010/2nd_fine_tuned_Llama-3.2-3B-Instruct) | Second iteration with refined dataset. |
 | 1st | [wolf010/1st_fine_tuned_Llama-3.2-3B-Instruct](https://huggingface.co/wolf010/1st_fine_tuned_Llama-3.2-3B-Instruct) | Baseline model for fine-tuning experiments. |
+
+## Results and Examples
+
+After fine-tuning, the model successfully handled complex customer orders and returned accurate responses. Here’s a comparison of input and output:
+
+| Input | Action Response
+| --- | --- |
+| "아이스 아메리카노 라지 1잔 주세요" | `"new_order_item", "name": "아메리카노", "size": "라지", "temperature": "아이스", "quantity": 1, "add_ons": "None"` |
+
+**Performance Metrics**:
+- Total F1 Score: **93%**
+- Average Precision: **91%**
+- Average Recall: **95%**
+---
+
+## Limitations and Future Improvements
+
+### Current Limitations
+- **Resource-Intensive**: The LLaMA 8B model requires high-end GPUs for fast inference.
+- **Hallucinations**: The model sometimes generates incorrect responses.
+- **STT Integration**: Speech-to-text processing is not fully integrated, which can affect user experience in noisy environments.
+
+### Future Improvements
+- **Enhanced Datasets**: Adding more diverse and complex order scenarios.
+- **Model Optimization**: Further fine-tuning for edge devices.
+- **STT Integration**: Seamless integration with speech recognition systems.
+
+---
