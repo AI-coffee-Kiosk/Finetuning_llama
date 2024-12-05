@@ -45,4 +45,10 @@ By leveraging an advanced conversation-based AI, this kiosk aims to enhance acce
    - Test the model using various prompts to validate its understanding of coffee orders.
 
 ---
+## Uploaded Models
 
+Below are the fine-tuned models uploaded to Hugging Face:
+
+| Version | Link | Notes |
+| --- | --- | --- |
+| 1st | [wolf010/1st_fine_tuned_Llama-3.2-3B-Instruct](https://huggingface.co/wolf010/1st_fine_tuned_Llama-3.2-3B-Instruct) | Baseline model for fine-tuning experiments. |
