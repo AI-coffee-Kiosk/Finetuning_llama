@@ -40,3 +40,8 @@ By leveraging an advanced conversation-based AI, this kiosk aims to enhance acce
      - Batch size: `8`
      - Learning rate: `2e-5`
    - Start the fine-tuning process.
+4. **Upload and Test**
+   - Upload the fine-tuned model to Hugging Face.
+   - Test the model using various prompts to validate its understanding of coffee orders.
+
+---
