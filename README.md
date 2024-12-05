@@ -30,3 +30,7 @@ By leveraging an advanced conversation-based AI, this kiosk aims to enhance acce
        "response": "\"new_order_item\", \"name\": \"아메리카노\", \"size\": \"미디움\", \"temperature\": \"핫\", \"quantity\": 1, \"add_ons\": \"None\""
      }
      ```
+2. **Set Up Training Environment**
+   - Use [oobabooga's text generation webui](https://github.com/oobabooga/text-generation-webui) for training.
+   - Load the LLaMA model (3B or 8B). Quantization is optional but recommended for resource efficiency.
+   - Place the dataset in the `training/datasets` directory.
