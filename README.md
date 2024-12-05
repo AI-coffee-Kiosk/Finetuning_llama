@@ -51,6 +51,7 @@ Below are the fine-tuned models uploaded to Hugging Face:
 
 | Version | Link | Notes |
 | --- | --- | --- |
+| 6th | [wolf010/6th_finetuned_llama-3-Korean-Bllossom-8B](https://huggingface.co/wolf010/6th_finetuned_llama-3-Korean-Bllossom-8B) | Fine-tuned with enhancements for edge cases. |
 | 5th | [wolf010/5TH_fine_tuned_llama-3.2-Korean-Bllossom-3B.q8_0-gguf](https://huggingface.co/wolf010/5TH_fine_tuned_llama-3.2-Korean-Bllossom-3B.q8_0-gguf) | Optimized with gguf format. |
 | 5th (non-quantized) | [wolf010/5TH_fine_tuned_llama-3.2-Korean-Bllossom-3B](https://huggingface.co/wolf010/5TH_fine_tuned_llama-3.2-Korean-Bllossom-3B) | Fully fine-tuned in a non-quantized format. |
 | 4th | [wolf010/4th_finetuned_korean8b-gguf](https://huggingface.co/wolf010/4th_finetuned_korean8b-gguf) | Fine-tuned with gguf for performance. |
