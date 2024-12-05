@@ -51,6 +51,7 @@ Below are the fine-tuned models uploaded to Hugging Face:
 
 | Version | Link | Notes |
 | --- | --- | --- |
+| 4th | [wolf010/4th_finetuned_korean8b-gguf](https://huggingface.co/wolf010/4th_finetuned_korean8b-gguf) | Fine-tuned with gguf for performance. |
 | 4th (non-quantized) | [wolf010/4TH_fine_tuned_Llama-3.2-3B-Instruct](https://huggingface.co/wolf010/4TH_fine_tuned_Llama-3.2-3B-Instruct) | Pre-optimized iteration for instructions. |
 | 3rd | [wolf010/3rd_fine_tuned_Llama-3.2-3B-Instruct](https://huggingface.co/wolf010/3rd_fine_tuned_Llama-3.2-3B-Instruct) | Initial model tailored for coffee kiosk orders. |
 | 2nd | [wolf010/2nd_fine_tuned_Llama-3.2-3B-Instruct](https://huggingface.co/wolf010/2nd_fine_tuned_Llama-3.2-3B-Instruct) | Second iteration with refined dataset. |
